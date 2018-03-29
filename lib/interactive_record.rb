@@ -13,5 +13,5 @@ class InteractiveRecord
    table_info.each do|row|
      column_names << row["name"]
     end
-  end
+    column_names
 end
