@@ -7,7 +7,7 @@ class InteractiveRecord
   end
   def self.column_names
     DB[:conn].results_as_hash = true
-   sql = "pragma table_info('#{tavle_name}')"
-    
+   sql = "pragma table_info('#{tavbe_name}')"
+
   end
 end
